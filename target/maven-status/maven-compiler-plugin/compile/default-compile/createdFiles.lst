@@ -1,0 +1,13 @@
+info\Lr2_3Var23\Application.class
+info\Lr2_3Var23\db\model\Fridge.class
+info\Lr2_3Var23\rest\ProductRestService.class
+info\Lr2_3Var23\rest\FridgeRestService.class
+info\Lr2_3Var23\db\dao\FridgeRepository.class
+info\Lr2_3Var23\db\model\Product.class
+info\Lr2_3Var23\service\ProductServiceImpl.class
+info\Lr2_3Var23\service\FridgeServiceImpl.class
+info\Lr2_3Var23\db\dao\ProductRepository.class
+info\Lr2_3Var23\service\FridgeService.class
+info\Lr2_3Var23\config\WebSecurityConfig.class
+info\Lr2_3Var23\service\ProductService.class
+info\Lr2_3Var23\config\ControllersConfig.class

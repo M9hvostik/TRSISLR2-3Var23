@@ -1,0 +1,28 @@
+insert into FRIDGE (FRIDGE_NAME) values ('Products');
+insert into FRIDGE (FRIDGE_NAME) values ('Medicines');
+insert into FRIDGE (FRIDGE_NAME) values ('Meat');
+
+insert into PRODUCT (PRODUCT_NAME, PRODUCT_PRODUCTIONDATE, PRODUCT_EXPIRATIONDATE, PRODUCT_FRIDGE_ID) values ('yogurt','2024-05-01','2024-05-15',1);
+insert into PRODUCT (PRODUCT_NAME, PRODUCT_PRODUCTIONDATE, PRODUCT_EXPIRATIONDATE, PRODUCT_FRIDGE_ID) values ('cheese','2024-04-01','2024-06-25',1);
+insert into PRODUCT (PRODUCT_NAME, PRODUCT_PRODUCTIONDATE, PRODUCT_EXPIRATIONDATE, PRODUCT_FRIDGE_ID) values ('mayonnaise','2023-10-20','2024-10-20',1);
+insert into PRODUCT (PRODUCT_NAME, PRODUCT_PRODUCTIONDATE, PRODUCT_EXPIRATIONDATE, PRODUCT_FRIDGE_ID) values ('paracetamol','2023-01-01','20245-01-01',2);
+
+insert into PRODUCT (PRODUCT_NAME, PRODUCT_PRODUCTIONDATE, PRODUCT_EXPIRATIONDATE)values('fish','2024-05-10','2024-05-12');
+
+--insert into BATCH (BATCH_NUMBER, BATCH_SCHOOL_ID) values ('111',1);
+--insert into BATCH (BATCH_NUMBER, BATCH_SCHOOL_ID) values ('112',1);
+--insert into BATCH (BATCH_NUMBER, BATCH_SCHOOL_ID) values ('113',1);
+--insert into BATCH (BATCH_NUMBER, BATCH_SCHOOL_ID) values ('121',1);
+--insert into BATCH (BATCH_NUMBER, BATCH_SCHOOL_ID) values ('122',1);
+--insert into BATCH (BATCH_NUMBER, BATCH_SCHOOL_ID) values ('123',1);
+--insert into BATCH (BATCH_NUMBER, BATCH_SCHOOL_ID) values ('411',4);
+--insert into BATCH (BATCH_NUMBER, BATCH_SCHOOL_ID) values ('412',4);
+--insert into BATCH (BATCH_NUMBER, BATCH_SCHOOL_ID) values ('413',4);
+--insert into BATCH (BATCH_NUMBER, BATCH_SCHOOL_ID) values ('421',4);
+--insert into BATCH (BATCH_NUMBER, BATCH_SCHOOL_ID) values ('422',4);
+--insert into BATCH (BATCH_NUMBER, BATCH_SCHOOL_ID) values ('423',4);
+
+--insert into STUDENT(STUD_FNAME,STUD_PNAME, STUD_LNAME,STUD_NUM_ZACH,STUD_BATCH_ID) values('����','��������','������','�112/2016',1);
+--insert into STUDENT(STUD_FNAME,STUD_PNAME, STUD_LNAME,STUD_NUM_ZACH,STUD_BATCH_ID) values('����','��������','������','�113/2016',1);
+--insert into STUDENT(STUD_FNAME,STUD_PNAME, STUD_LNAME,STUD_NUM_ZACH,STUD_BATCH_ID) values('�����','���������','�������','�114/2016',2);
+--insert into STUDENT(STUD_FNAME,STUD_PNAME, STUD_LNAME,STUD_NUM_ZACH,STUD_BATCH_ID) values('�����','���������','�������','�115/2016',2);
